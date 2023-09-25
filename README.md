@@ -1,4 +1,4 @@
-# YouTube Tutorial Project: React & Node.js MySQL Integration
+# React & Node.js MySQL Integration
 
  The project focuses on integrating MySQL with a React frontend and a Node.js backend.
 
