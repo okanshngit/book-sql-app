@@ -1,3 +1,25 @@
+# YouTube Tutorial Project: React & Node.js MySQL Integration
+
+ The project focuses on integrating MySQL with a React frontend and a Node.js backend.
+
+## Project Overview
+
+This project demonstrates how to build a web application that utilizes a MySQL database for data storage. It consists of a frontend developed using React and a backend powered by Node.js. The primary objectives of the project include:
+
+- Setting up MySQL
+- Creating a Node.js Backend
+- Building a React Frontend
+- Implementing CRUD Operations
+- Designing the User Interface
+- Fetching and Displaying Data
+- Adding and Updating Data
+- Deleting Data
+- Real-World Application
+
+# Technologies
+- ReactJS, Express Server, Node.JS, Nodemon, MySQL
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

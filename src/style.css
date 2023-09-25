@@ -1,0 +1,94 @@
+/* Stil.css (örnek isim) */
+.books {
+  display: flex;
+  justify-content: center; /* İçeriği yatayda ortala */
+  align-items: center; /* İçeriği dikeyde ortala */
+  height: 100vh; /* Ekran yüksekliği kadar container yapar */
+  padding: 0 50px; /* Sağdan ve soldan 20 piksel boşluk ekler */
+  flex-direction: column;
+}
+
+.book-item {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 10px 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.book-image {
+  flex: 1;
+  max-width: 150px;
+  margin-right: 20px;
+  align-self: flex-start; /* book-image'ı sola yaslar */
+}
+
+.book-details {
+  flex: 2;
+}
+
+.book-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.book-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.book-price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ccc; /* Solid kenar stilini ve gri rengini ekler */
+  padding: 10px; /* Kenar ile içeriği arasına biraz boşluk ekler (isteğe bağlı) */
+}
+
+.update-button,
+.add-button {
+  background-color: salmon; /* Açık somon rengi */
+  color: black; /* Siyah metin rengi */
+  padding: 8px 16px;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.update-button:hover,
+.add-button:hover {
+  background-color: darkorange;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.form textarea {
+  padding: 10px;
+}
+
+.form button {
+  border: none;
+  padding: 10px;
+  background-color: white;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
